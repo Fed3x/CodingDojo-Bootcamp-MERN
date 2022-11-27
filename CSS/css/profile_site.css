@@ -1,0 +1,182 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+header{
+    margin-bottom: 30px;
+    background-color: #1a1919cc;
+}
+nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+    margin-right: 20px;
+}
+
+.nav-title{
+    color: white;
+    margin-left: 15px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 5px 10px;
+}
+.active{
+    font-weight: 600;
+}
+a{
+    color: blue
+}
+.btn{
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: black 4px 5px;
+}
+
+
+.img-profile{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+.card{
+    border: 2px solid gray;
+    border-radius: 2px;
+    margin-bottom: 20px;
+   
+}
+.card-header{
+    height: 50px;
+    background-color: #474747;
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.card-body{
+    padding: 10px;
+}
+.card-footer{
+    border-top: 2px solid gray;
+    padding: 10px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+.badge {
+    border-radius: 50%;
+    background-color: white;
+    color: #474747;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+.principal-section{
+    flex: 2;
+}
+.side-section{
+    flex: 1;
+}
+/* PROFILE */
+.card-header.profile{
+    background-color: teal;
+    height: 100px;
+}
+.card-body.profile{
+    padding:  50px 10px 10px;
+}
+/* EDUCATION */
+.grade{
+    font-size: medium;
+}
+.period{
+    font-size: small;
+    color: lightgray;
+}
+.comment{
+    font-size: small;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.item>img{
+    width: 40px;
+    height: 40px;
+}
+.item>.name{
+    width: 80px;
+}
+
+.actions>img{
+    width: 30px;
+    height: 30px;
+}
+.mr-1{
+    margin-right: 10px;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+
