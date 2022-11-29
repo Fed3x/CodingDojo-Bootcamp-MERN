@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>JS - Onclick</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1 class="nav-title">DOJONARY</h1>
+            <input class="search" type="text" name="" id="" placeholder="Search">
+            <button class="btn" onclick="changeText(this)">LogIn</button>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <article class="principal-section">
+            <div class="card d-flex">
+                <div class="word mr-2">
+                    <h3 class="">ninja</h3>
+                    <h4 class="mb-1">noun</h4>
+                    <p class="mb-1">Plural: ninjas</p>
+                    <button class="btn btn-likes  mb-1" onclick="alertLike()">13 likes</button>
+                </div>
+                <div class="meaning">
+                    <p class=""> A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="card d-flex">
+                <div class="word mr-2 mb-1">
+                    <h3>ninja</h3>
+                    <h4 class="mb-1">noun</h4>
+                    <p class="mb-1">Plural: ninjas</p>
+                    <button class="btn btn-likes mb-1" onclick="alertLike()">37 likes</button>
+                </div>
+                <div class="meaning">
+                    <p class="">A <a href="#">programmer</a> who breaks down ploblems with zen-like focus</p>
+                </div>
+            </div>
+        </article>
+        <aside class="side-section">
+            <div class="card">
+                <p class="mb-1">Dojonary is defined by YOU</p>
+                <button class="btn btn-add" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
