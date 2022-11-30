@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>JS - Like</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="nav-title">NETWORK</span>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <article class="principal-section">
+            <div class="card">
+                <div class="d-flex justify-content-between">
+                    <h4>Some User</h4>
+                    <p><span id="like-1">19</span> Likes</p>
+                    <button class="btn btn-likes mb-1" onclick="addLike('like-1')">Like</button>
+                </div>
+                <p class="">This is some filler text, it can say anything we like</p>
+            </div>
+
+            <div class="card">
+                <div class="d-flex justify-content-between">
+                    <h4>Neil M</h4>
+                    <p><span id="like-2">9</span> Likes</p>
+                    <button class="btn btn-likes mb-1" onclick="addLike('like-2')">Like</button>
+                </div>
+                <p class="">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <div class="card">
+                <div class="d-flex justify-content-between">
+                    <h4>Nichole K</h4>
+                    <p><span id="like-3">12</span> Likes</p>
+                    <button class="btn btn-likes mb-1" onclick="addLike('like-3')">Like</button>
+                </div>
+                <p class="">Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="card">
+                <div class="d-flex justify-content-between">
+                    <h4>Jim R</h4>
+                    <p><span id="like-4">9</span> Likes</p>
+                    <button class="btn btn-likes mb-1" onclick="addLike('like-4')">Like</button>
+                </div>
+                <p class="">I can't stop listening to the <a href="#">new album</a>. </p>
+                <p>Who else is liking it?</p>
+            </div>
+        </article>
+        <aside class="side-section">
+            <div class="card text-center">
+                <img class="img-profile" src="./img/user-circle.png" alt="user-circle.png">
+                <p class="mb-1"><a href="#">Add an avatar</a></p>
+                <h4>James Doe</h4>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

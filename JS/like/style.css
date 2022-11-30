@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-style: italic;
+}
+
+header{
+    width: 70%;
+    margin-bottom: 30px;
+    background-color: #1a1919cc;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside{
+    margin-right: 20px;
+}
+
+.nav-title{
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 5px 10px;
+}
+
+.card{
+    border: 2px solid gray;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.card-header{
+    height: 50px;
+    background-color: #474747;
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.card-body{
+    padding: 10px;
+}
+.card-footer{
+    border-top: 2px solid gray;
+    padding: 10px;
+}
+
+
+.principal-section{
+    order: 1;
+    flex: 2;
+}
+.side-section{
+    flex: 1;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    box-shadow: black 5px 5px;
+    padding: 0 5px;
+}
+.btn-likes{
+    background-color: yellow;
+    color: black;
+}
+.btn-add{
+    background-color: green;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+.img-profile{
+    height: 90px;
+    width: 90px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
