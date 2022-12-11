@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-title">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="changeCity('Burbank')">Burbank</a>
+            <a href="#" onclick="changeCity('Chicago')">Chicago</a>
+            <a href="#" onclick="changeCity('Dallas')">Dallas</a>
+        </div>
+    </nav>
+    <main class="main">
+        <header class="header">
+            <h2>San José</h2>
+            <div class="control">
+                <span>
+                    show temperatures in
+                </span>
+                <select name="" onchange="changeTemperature(this)">
+                    <option value="C">° C</option>
+                    <option value="F">° F</option>
+                </select>
+            </div>
+        </header>
+        <div class="section mb-2">
+            <article class="day p-2">
+                <h3 class="text-center">Today</h3>
+                <img src="./img/some_rain.png" alt="some_rain.png">
+                <p class="text-center mb-2">some rain</p>
+                <div class="max_min">
+                    <div class="max">24°</div>
+                    <div class="min">18°</div>
+                </div>
+            </article>
+            <article class="day p-2">
+                <h3 class="text-center">Tomorrow</h3>
+                <img src="./img/some_sun.png" alt="some_rain.png">
+                <p class="text-center mb-2">some sun</p>
+                <div class="max_min">
+                    <span class="max">27°</span>
+                    <span class="min">19°</span>
+                </div>
+            </article>
+            <article class="day p-2">
+                <h3 class="text-center">Friday</h3>
+                <img src="./img/some_clouds.png" alt="some_rain.png">
+                <p class="text-center mb-2">some clouds</p>
+                <div class="max_min">
+                    <span class="max">21°</span>
+                    <span class="min">16°</span>
+                </div>
+            </article>
+            <article class="day p-2">
+                <h3 class="text-center">Saturday</h3>
+                <img src="./img/some_sun.png" alt="some_rain.png">
+                <p class="text-center mb-2">some sun</p>
+                <div class="max_min">
+                    <span class="max">26°</span>
+                    <span class="min">21°</span>
+                </div>
+            </article>
+        </div>
+        <footer>
+            <div id="cookies" class="cookies">
+                <img src="img/cookie.png" alt="">
+                <div>
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the editable ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read More...</a></p>
+                </div>
+                <button class="btn" onclick="acceptCookie()">I Accept</button>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
